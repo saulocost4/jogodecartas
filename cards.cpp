@@ -14,10 +14,10 @@ void printCarta(const Carta &carta)
         case SETE:       std::cout << "7";   break;
         case OITO:       std::cout << "8";   break;
         case NOVE:       std::cout << "9";   break;
-        case DEZ:        std::cout << "T";   break;
-        case VALETE:     std::cout << "V";   break;
-        case DAMA:       std::cout << "D";   break;
-        case REI:        std::cout << "R";   break;
+        case DEZ:        std::cout << "10";   break;
+        case VALETE:     std::cout << "J";   break;
+        case DAMA:       std::cout << "Q";   break;
+        case REI:        std::cout << "K";   break;
         case AS:         std::cout << "A";   break; 
     }
 
